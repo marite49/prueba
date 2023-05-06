@@ -11,24 +11,39 @@ h4{
     background-color: rgb(21, 21, 107);
     padding: 30 px;
     text-align: right;
-    
+
 }
+.primero{
+    display: flex;
+    flex-direction: row;
+}
+/*.mapa{
+
+   width: 80px;
+   height: 150px;
+  
+}  */
 .recuadro{
     border: 6px solid gray;
-    border-bottom: 3px solid gray ;
     color: rgb(78, 69, 69);
-    margin-right: 500px;
+    margin-right: 600px;
+    margin-left: 0px;
     margin-top: 0px;
-    padding-top: 0px;
+   /*  padding-top: 0px; */
 }
-    .abajo{
-    border: 6px solid gray;
-    border-top : 3px solid gray;
-    margin-right: 500px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+
+.abajo{
+
+border-top : 3px solid gray;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
+
+
 h3{
     font-size: 30px; 
+}
+/*/#arriba{
+    border-bottom: 3px solid gray; *
 }
