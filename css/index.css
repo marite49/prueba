@@ -21,35 +21,26 @@ h4{
 }
 
 .recuadro{
-    border: 6px solid gray;
+    border: 12px solid gray;
     color: rgb(78, 69, 69);
     width: 60vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
     
 }
 
 .abajo{
-border-top : 3px solid gray;
-
+border-top : 7px solid gray;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-p{ width: 50px;
-
-
 }
+.chico
+{ width: 400px; }
 
-h3{
-    height:30px;
-    
-}
-/*#arriba{border-bottom: 3px solid gray;}*/
-
-
-footer{
+h2{
     background-color: rgb(41, 133, 133);
     color: azure;
-  
-}
-h2{
-    height: 40px; 
+    height: 30px; 
+    text-align: center;
 }
