@@ -33,13 +33,14 @@ border-top : 3px solid gray;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-p{ 50px }
+p{ width: 50px;
 
 
 }
 
 h3{
     height:30px;
+    
 }
 /*#arriba{border-bottom: 3px solid gray;}*/
 
